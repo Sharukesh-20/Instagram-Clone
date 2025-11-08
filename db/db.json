@@ -1,0 +1,1131 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "user": {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "src/assets/Profile1.png"
+      },
+      "image": "src/assets/Nature1.jpeg",
+      "caption": "Beautiful sunset 🌅 #Nature",
+      "likes": [
+        102,
+        103,
+        104,
+        105,
+        101
+      ],
+      "comments": [
+        {
+          "user": "alice_wonder",
+          "comment": "Wow! Amazing shot! 📸",
+          "profile_pic": "src/assets/Profile2.png"
+        },
+        {
+          "user": "mark_92",
+          "comment": "Where is this place?",
+          "profile_pic": "src/assets/Profile3.png"
+        },
+        {
+          "user": "Sharu-20",
+          "comment": "Beautifull😍",
+          "time": "23 October 2025 at 6:10 am",
+          "profile_pic": "src/assets/Sharu.Photo1.jpeg"
+        },
+        {
+          "user": "Sharu-20",
+          "profile_pic": "src/assets/Sharu.Photo1.jpeg",
+          "comment": "Nice",
+          "time": "24 October 2025 at 12:07 am"
+        }
+      ],
+      "timestamp": "2025-02-11T14:30:00Z"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 102,
+        "username": "mia_travels",
+        "profile_pic": "src/assets/Profile2.png"
+      },
+      "image": "src/assets/Nature2.jpeg",
+      "caption": "Morning vibes at the mountain lake 🏔️💧",
+      "likes": [
+        103,
+        104,
+        101
+      ],
+      "comments": [
+        {
+          "user": "john_doe",
+          "comment": "Peaceful view 😍",
+          "profile_pic": "src/assets/Profile1.png"
+        },
+        {
+          "user": "alice_wonder",
+          "comment": "Adding this to my travel list!",
+          "profile_pic": "src/assets/Profile2.png"
+        },
+        {
+          "user": "Sharu-20",
+          "profile_pic": "src/assets/Sharu.Photo1.jpeg",
+          "comment": "💚💚",
+          "time": "24 October 2025 at 12:20 am"
+        }
+      ],
+      "timestamp": "2025-02-12T09:15:00Z"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 103,
+        "username": "foodie_ron",
+        "profile_pic": "src/assets/Profile3.png"
+      },
+      "image": "src/assets/Nature3.jpeg",
+      "caption": "Homemade pasta night 🍝✨",
+      "likes": [
+        102,
+        105,
+        101
+      ],
+      "comments": [
+        {
+          "user": "mia_travels",
+          "comment": "Save me a plate please 😋",
+          "profile_pic": "src/assets/Profile2.png"
+        },
+        {
+          "user": "foodie_ron",
+          "comment": "Looks so tasty!",
+          "profile_pic": "src/assets/Profile3.png"
+        },
+        {
+          "user": "Sharu-20",
+          "profile_pic": "src/assets/Sharu.Photo1.jpeg",
+          "comment": "🌄",
+          "time": "24 October 2025 at 12:19 am"
+        }
+      ],
+      "timestamp": "2025-02-13T18:50:00Z"
+    },
+    {
+      "id": "4",
+      "user": {
+        "id": 104,
+        "username": "tech_sam",
+        "profile_pic": "src/assets/Profile4.png"
+      },
+      "image": "src/assets/Nature4.jpeg",
+      "caption": "New gaming setup ⚡ What do you think?",
+      "likes": [
+        102,
+        105,
+        101
+      ],
+      "comments": [
+        {
+          "user": "tech_sam",
+          "comment": "Clean build 👌",
+          "profile_pic": "src/assets/Profile4.png"
+        },
+        {
+          "user": "Sharu-20",
+          "profile_pic": "src/assets/Sharu.Photo1.jpeg",
+          "comment": "Awesome💕",
+          "time": "24 October 2025 at 12:12 am"
+        }
+      ],
+      "timestamp": "2025-02-14T11:05:00Z"
+    },
+    {
+      "id": "5",
+      "user": {
+        "id": 105,
+        "username": "nature_lisa",
+        "profile_pic": "src/assets/Profile5.png"
+      },
+      "image": "src/assets/Nature5.jpeg",
+      "caption": "Evening walk in the forest 🌳✨",
+      "likes": [
+        101,
+        102,
+        103,
+        104
+      ],
+      "comments": [
+        {
+          "user": "john_doe",
+          "comment": "Such a calm place 💚",
+          "profile_pic": "src/assets/Profile1.png"
+        },
+        {
+          "user": "mia_travels",
+          "comment": "Nature therapy is the best!",
+          "profile_pic": "src/assets/Profile2.png"
+        },
+        {
+          "user": "Sharu-20",
+          "profile_pic": "src/assets/Sharu.Photo1.jpeg",
+          "comment": "Nature🍁",
+          "time": "24 October 2025 at 12:13 am"
+        }
+      ],
+      "timestamp": "2025-02-15T17:40:00Z"
+    }
+  ],
+  "profile": {
+    "id": 101,
+    "username": "Sharu-20",
+    "profile_pic": "src/assets/Sharu.Photo1.jpeg",
+    "posts": [
+      {
+        "id": "101",
+        "image": "src/assets/Post1.jpg"
+      },
+      {
+        "id": "102",
+        "image": "src/assets/Post2.jpg"
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "id": "101",
+      "username": "john_doe",
+      "profile_pic": "src/assets/Profile1.png"
+    },
+    {
+      "id": "102",
+      "username": "mia_travels",
+      "profile_pic": "src/assets/Profile2.png"
+    },
+    {
+      "id": "103",
+      "username": "foodie_ron",
+      "profile_pic": "src/assets/Profile3.png"
+    },
+    {
+      "id": "104",
+      "username": "tech_sam",
+      "profile_pic": "src/assets/Profile4.png"
+    },
+    {
+      "id": "105",
+      "username": "nature_lisa",
+      "profile_pic": "src/assets/Profile5.png"
+    }
+  ],
+  "story": [
+    {
+      "id": "1",
+      "user": {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "/assetss/Profile1.png"
+      },
+      "image": "/src/assets/Story1.jpg"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 102,
+        "username": "mia_travels",
+        "profile_pic": "/assetss/Profile2.png"
+      },
+      "image": "/src/assets/Story2.jpg"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 103,
+        "username": "foodie_ron",
+        "profile_pic": "/assetss/Profile3.png"
+      },
+      "image": "/src/assets/Story3.jpg"
+    },
+    {
+      "id": "4",
+      "user": {
+        "id": 104,
+        "username": "tech_sam",
+        "profile_pic": "/assetss/Profile4.png"
+      },
+      "image": "/src/assets/Story4.jpg"
+    },
+    {
+      "id": "5",
+      "user": {
+        "id": 105,
+        "username": "nature_lisa",
+        "profile_pic": "/assetss/Profile5.png"
+      },
+      "image": "/src/assets/Story5.jpg"
+    }
+  ],
+  "followers": [
+    {
+      "id": "102",
+      "username": "mia_travels",
+      "profile_pic": "src/assets/Profile2.png"
+    },
+    {
+      "id": "105",
+      "username": "nature_lisa",
+      "profile_pic": "src/assets/Profile5.png"
+    },
+    {
+      "id": "103",
+      "username": "foodie_ron",
+      "profile_pic": "src/assets/Profile3.png"
+    },
+    {
+      "id": "101",
+      "username": "john_doe",
+      "profile_pic": "src/assets/Profile1.png"
+    },
+    {
+      "id": "104",
+      "username": "tech_sam",
+      "profile_pic": "src/assets/Profile4.png"
+    }
+  ],
+  "following": [
+    {
+      "id": "102",
+      "username": "mia_travels",
+      "profile_pic": "src/assets/Profile2.png"
+    },
+    {
+      "id": "105",
+      "username": "nature_lisa",
+      "profile_pic": "src/assets/Profile5.png"
+    },
+    {
+      "id": "103",
+      "username": "foodie_ron",
+      "profile_pic": "src/assets/Profile3.png"
+    },
+    {
+      "id": "101",
+      "username": "john_doe",
+      "profile_pic": "src/assets/Profile1.png"
+    },
+    {
+      "id": "104",
+      "username": "tech_sam",
+      "profile_pic": "src/assets/Profile4.png"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "101",
+      "type": "follow",
+      "fromUser": "john_doe",
+      "fromUserPic": "src/assets/Profile1.png",
+      "time": "2m",
+      "read": false
+    },
+    {
+      "id": "102",
+      "type": "follow",
+      "fromUser": "mia_travels",
+      "fromUserPic": "src/assets/Profile2.png",
+      "time": "5m",
+      "read": false
+    },
+    {
+      "id": "103",
+      "type": "follow",
+      "fromUser": "foodie_ron",
+      "fromUserPic": "src/assets/Profile3.png",
+      "time": "10m",
+      "read": false
+    },
+    {
+      "id": "104",
+      "type": "follow",
+      "fromUser": "tech_sam",
+      "fromUserPic": "src/assets/Profile4.png",
+      "time": "15m",
+      "read": false
+    },
+    {
+      "id": "105",
+      "type": "follow",
+      "fromUser": "nature_lisa",
+      "fromUserPic": "src/assets/Profile5.png",
+      "time": "20m",
+      "read": false
+    },
+    {
+      "id": "1",
+      "type": "like",
+      "fromUser": "john_doe",
+      "fromUserPic": "src/assets/Profile1.png",
+      "postId": "2",
+      "postImage": "src/assets/Nature2.jpeg",
+      "time": "2025-10-01T14:30:00Z"
+    },
+    {
+      "id": "2",
+      "type": "comment",
+      "fromUser": "mia_travels",
+      "fromUserPic": "src/assets/Profile2.png",
+      "postId": "3",
+      "postImage": "src/assets/Nature3.jpeg",
+      "comment": "Looks delicious 😋",
+      "time": "2025-10-01T15:10:00Z"
+    },
+    {
+      "id": "3",
+      "type": "like",
+      "fromUser": "foodie_ron",
+      "fromUserPic": "src/assets/Profile3.png",
+      "postId": "1",
+      "postImage": "src/assets/Nature1.jpeg",
+      "time": "2025-10-01T15:45:00Z"
+    },
+    {
+      "id": "4",
+      "type": "comment",
+      "fromUser": "tech_sam",
+      "fromUserPic": "src/assets/Profile4.png",
+      "postId": "5",
+      "postImage": "src/assets/Nature5.jpeg",
+      "comment": "That forest looks magical ✨",
+      "time": "2025-10-01T16:20:00Z"
+    },
+    {
+      "id": "5",
+      "type": "like",
+      "fromUser": "nature_lisa",
+      "fromUserPic": "src/assets/Profile5.png",
+      "postId": "4",
+      "postImage": "src/assets/Nature4.jpeg",
+      "time": "2025-10-01T16:55:00Z"
+    },
+    {
+      "id": "ada9",
+      "type": "follow",
+      "fromUser": "foodie_ron",
+      "fromUserPic": "src/assets/Profile3.png",
+      "time": "11:12 PM",
+      "read": false
+    },
+    {
+      "id": "a321",
+      "type": "unfollow",
+      "fromUser": "john_doe",
+      "fromUserPic": "src/assets/Profile1.png",
+      "time": "11:12 PM",
+      "read": false
+    },
+    {
+      "id": "12cf",
+      "type": "unfollow",
+      "fromUser": "john_doe",
+      "fromUserPic": "src/assets/Profile1.png",
+      "time": "11:13 PM",
+      "read": false
+    },
+    {
+      "id": "dbc4",
+      "type": "follow",
+      "fromUser": "john_doe",
+      "fromUserPic": "src/assets/Profile1.png",
+      "time": "06:27 AM",
+      "read": false
+    },
+    {
+      "id": "845a",
+      "type": "like",
+      "fromUser": "Sharu-20",
+      "fromUserPic": "src\\assets\\Sharu.Photo1.jpeg",
+      "postId": "2",
+      "postImage": "src/assets/Nature2.jpeg",
+      "time": "2025-10-03T02:10:34.540Z",
+      "read": false
+    },
+    {
+      "id": "eb26",
+      "type": "unfollow",
+      "fromUser": "john_doe",
+      "fromUserPic": "src/assets/Profile1.png",
+      "time": "06:07 AM",
+      "read": false
+    },
+    {
+      "id": "2994",
+      "type": "follow",
+      "fromUser": "foodie_ron",
+      "fromUserPic": "src/assets/Profile3.png",
+      "time": "06:09 AM",
+      "read": false
+    },
+    {
+      "id": "21e3",
+      "type": "follow",
+      "fromUser": "john_doe",
+      "fromUserPic": "src/assets/Profile1.png",
+      "time": "09:05 AM",
+      "read": false
+    },
+    {
+      "id": "8ced",
+      "type": "follow",
+      "fromUser": "tech_sam",
+      "fromUserPic": "src/assets/Profile4.png",
+      "time": "03:40 AM",
+      "read": false
+    },
+    {
+      "id": "7f7b",
+      "type": "like",
+      "fromUser": "Sharu-20",
+      "fromUserPic": "src\\assets\\Sharu.Photo1.jpeg",
+      "postId": "4",
+      "postImage": "src/assets/Nature4.jpeg",
+      "time": "2025-10-17T21:11:59.926Z",
+      "read": false
+    },
+    {
+      "id": "a922",
+      "type": "like",
+      "fromUser": "Sharu-20",
+      "fromUserPic": "src/assets/Sharu.Photo1.jpeg",
+      "postId": "1",
+      "postImage": "src/assets/Nature1.jpeg",
+      "time": "2025-10-22T17:33:36.996Z",
+      "read": false
+    },
+    {
+      "id": "b282",
+      "type": "follow",
+      "fromUser": "tech_sam",
+      "fromUserPic": "src/assets/Profile4.png",
+      "time": "07:45 AM",
+      "read": false
+    },
+    {
+      "id": "be05",
+      "type": "follow",
+      "fromUser": "tech_sam",
+      "fromUserPic": "src/assets/Profile4.png",
+      "time": "07:47 AM",
+      "read": false
+    },
+    {
+      "id": "bf15",
+      "type": "follow",
+      "fromUser": "tech_sam",
+      "fromUserPic": "src/assets/Profile4.png",
+      "time": "07:47 AM",
+      "read": false
+    }
+  ],
+  "search": [
+    {
+      "id": "1",
+      "type": "profile",
+      "username": "john_doe",
+      "profile_pic": "src/assets/Profile1.png"
+    },
+    {
+      "id": "2",
+      "type": "profile",
+      "username": "foodie_ron",
+      "profile_pic": "src/assets/Profile3.png"
+    },
+    {
+      "id": "3",
+      "type": "profile",
+      "username": "mia_travels",
+      "profile_pic": "src/assets/Profile2.png"
+    },
+    {
+      "id": "4",
+      "type": "post",
+      "postId": 1,
+      "caption": "Beautiful sunset 🌅 #Nature",
+      "image": "src/assets/Nature1.jpeg",
+      "postedBy": "john_doe"
+    },
+    {
+      "id": "5",
+      "type": "post",
+      "postId": 2,
+      "caption": "Homemade pasta night 🍝✨",
+      "image": "src/assets/Nature3.jpeg",
+      "postedBy": "foodie_ron"
+    }
+  ],
+  "message": [
+    {
+      "id": "m1",
+      "senderId": 101,
+      "receiverId": 102,
+      "text": "Hey Mia! How’s your latest trip?",
+      "timestamp": "2025-10-06T09:30:00Z"
+    },
+    {
+      "id": "m2",
+      "senderId": 102,
+      "receiverId": 101,
+      "text": "Hey Sharu! It was amazing 🌍✨",
+      "timestamp": "2025-10-06T09:31:20Z"
+    },
+    {
+      "id": "m3",
+      "senderId": 101,
+      "receiverId": 105,
+      "text": "Hi Lisa! Your forest photo looks peaceful 🍃",
+      "timestamp": "2025-10-06T10:00:00Z"
+    },
+    {
+      "id": "m4",
+      "senderId": 105,
+      "receiverId": 101,
+      "text": "Thank you, Sharu! I love that spot 💚",
+      "timestamp": "2025-10-06T10:02:00Z"
+    },
+    {
+      "id": "m5",
+      "senderId": 101,
+      "receiverId": 103,
+      "text": "Ron! That pasta post made me hungry 😂",
+      "timestamp": "2025-10-06T11:15:00Z"
+    },
+    {
+      "id": "m6",
+      "senderId": 103,
+      "receiverId": 101,
+      "text": "Haha! Come over next time 😋",
+      "timestamp": "2025-10-06T11:16:20Z"
+    },
+    {
+      "id": "m7",
+      "senderId": 102,
+      "receiverId": 105,
+      "text": "Lisa, when’s our next travel collab?",
+      "timestamp": "2025-10-06T12:00:00Z"
+    },
+    {
+      "id": "m8",
+      "senderId": 105,
+      "receiverId": 102,
+      "text": "Soon! Let’s plan for the weekend 🌲",
+      "timestamp": "2025-10-06T12:01:00Z"
+    },
+    {
+      "id": "1759877906638",
+      "senderId": 101,
+      "receiverId": "102",
+      "text": "hii",
+      "time": "2025-10-07T22:58:26.638Z"
+    },
+    {
+      "id": "1759877922279",
+      "senderId": 101,
+      "receiverId": "102",
+      "text": "hii",
+      "time": "2025-10-07T22:58:42.279Z"
+    },
+    {
+      "id": "1759877988270",
+      "senderId": 101,
+      "receiverId": "102",
+      "text": "hello",
+      "time": "2025-10-07T22:59:48.270Z"
+    },
+    {
+      "id": "1759877998981",
+      "senderId": 101,
+      "receiverId": "102",
+      "text": "hello",
+      "time": "2025-10-07T22:59:58.981Z"
+    },
+    {
+      "id": "1760048934250",
+      "senderId": 101,
+      "receiverId": "103",
+      "text": "hii",
+      "time": "2025-10-09T22:28:54.250Z"
+    }
+  ],
+  "reels": [
+    {
+      "id": "1",
+      "videoUrl": "src/assets/Reel1.mp4",
+      "caption": "💛 “Not just a team, it’s an emotion — CSK forever, Thala always!” 🦁 #WhistlePodu #ThalaForAReason",
+      "likes": 14,
+      "comments": [
+        {
+          "id": "c1",
+          "username": "john_doe",
+          "profile_pic": "src/assets/Profile1.png",
+          "text": "💛 CSK forever!"
+        },
+        {
+          "id": "c2",
+          "username": "sneha_k",
+          "profile_pic": "src/assets/Profile2.png",
+          "text": "Thala is not just a player — he’s an emotion 🦁"
+        },
+        {
+          "id": "02a5c415-4fb2-4ed3-981c-804c85ef0e58",
+          "username": "you",
+          "profile_pic": "src/assets/Sharu.Photo1.jpeg",
+          "text": "Thala🦁",
+          "time": "24 October 2025 at 6:46 am"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "videoUrl": "src/assets/Reel2.mp4",
+      "caption": "🏏 “When Thala walks in, the crowd doesn’t cheer — it ROARS!” 🔥 #CSK #DhoniMagic",
+      "likes": 9,
+      "comments": [
+        {
+          "id": "c3",
+          "username": "raj_csk",
+          "profile_pic": "src/assets/Profile3.png",
+          "text": "That walk gives goosebumps every time 🔥"
+        },
+        {
+          "id": "c4",
+          "username": "meena_dhoni",
+          "profile_pic": "src/assets/Profile4.png",
+          "text": "ROARS louder than ever 🦁💛"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "videoUrl": "src/assets/Reel3.mp4",
+      "caption": "👑 “Form is temporary, but THALA is permanent.” 💛 #MSD #WhistlePoduArmy",
+      "likes": 16,
+      "comments": [
+        {
+          "id": "c5",
+          "username": "thala_fan",
+          "profile_pic": "src/assets/Profile5.png",
+          "text": "Always our king 👑"
+        },
+        {
+          "id": "c6",
+          "username": "deepak_07",
+          "profile_pic": "src/assets/Profile6.png",
+          "text": "No one like Dhoni 💛"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "videoUrl": "src/assets/Reel4.mp4",
+      "caption": "⚡ “Every six, every smile, every strategy — that’s the Dhoni difference.” 🦁 #CSK #CaptainCool",
+      "likes": 23,
+      "comments": [
+        {
+          "id": "c7",
+          "username": "vignesh_msd",
+          "profile_pic": "src/assets/Profile7.png",
+          "text": "Captain Cool in action 🔥"
+        },
+        {
+          "id": "c8",
+          "username": "arun_superfan",
+          "profile_pic": "src/assets/Profile8.png",
+          "text": "What a legend 👏"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "videoUrl": "src/assets/Reel5.mp4",
+      "caption": "💥 “Yellow blood runs through our veins — CSK till the last ball!” 💛 #ThalaDhoni #ChennaiSuperKings",
+      "likes": 10,
+      "comments": [
+        {
+          "id": "c9",
+          "username": "sharu_07",
+          "profile_pic": "src/assets/Profile9.png",
+          "text": "Bleed yellow always 💛"
+        },
+        {
+          "id": "c10",
+          "username": "divya_csk",
+          "profile_pic": "src/assets/Profile10.png",
+          "text": "CSK till my last breath 🦁🔥"
+        }
+      ]
+    }
+  ],
+  "explore": [
+    {
+      "id": "e1",
+      "type": "trending_post",
+      "postId": "4",
+      "image": "src/assets/Nature4.jpeg",
+      "caption": "New gaming setup ⚡ What do you think?",
+      "likes": 3,
+      "postedBy": "tech_sam"
+    },
+    {
+      "id": "e2",
+      "type": "trending_post",
+      "postId": "6",
+      "image": "src/assets/Nature5.jpeg",
+      "caption": "Evening walk in the forest 🌳✨",
+      "likes": 4,
+      "postedBy": "nature_lisa"
+    },
+    {
+      "id": "e3",
+      "type": "trending_post",
+      "postId": "1",
+      "image": "src/assets/Nature1.jpeg",
+      "caption": "Beautiful sunset 🌅 #Nature",
+      "likes": 5,
+      "postedBy": "john_doe"
+    },
+    {
+      "id": "e4",
+      "type": "suggested_user",
+      "userId": "102",
+      "username": "mia_travels",
+      "profile_pic": "src/assets/Profile2.png",
+      "reason": "You both like travel posts 🏔️"
+    },
+    {
+      "id": "e5",
+      "type": "suggested_user",
+      "userId": "103",
+      "username": "foodie_ron",
+      "profile_pic": "src/assets/Profile3.png",
+      "reason": "You both follow similar accounts 🍝"
+    },
+    {
+      "id": "e6",
+      "type": "suggested_user",
+      "userId": "104",
+      "username": "tech_sam",
+      "profile_pic": "src/assets/Profile4.png",
+      "reason": "Popular in your circle ⚡"
+    },
+    {
+      "id": "e7",
+      "type": "trending_reel",
+      "reelId": "4",
+      "videoUrl": "src/assets/Reel4.mp4",
+      "caption": "⚡ “Every six, every smile, every strategy — that’s the Dhoni difference.” 🦁 #CSK #CaptainCool",
+      "likes": 22
+    },
+    {
+      "id": "e8",
+      "type": "trending_reel",
+      "reelId": "3",
+      "videoUrl": "src/assets/Reel3.mp4",
+      "caption": "👑 “Form is temporary, but THALA is permanent.” 💛 #MSD #WhistlePoduArmy",
+      "likes": 16
+    },
+    {
+      "id": "e9",
+      "type": "trending_post",
+      "postId": "7",
+      "image": "src/assets/Nature6.jpeg",
+      "caption": "Woke up to this magical sunrise 🌄 #NatureLover",
+      "likes": 670,
+      "postedBy": "travel_vibe"
+    },
+    {
+      "id": "e10",
+      "type": "trending_post",
+      "postId": "8",
+      "image": "src/assets/Nature7.jpeg",
+      "caption": "Himalayan vibes ❄️ Trekking adventures begin!",
+      "likes": 720,
+      "postedBy": "mountain_mike"
+    },
+    {
+      "id": "e11",
+      "type": "trending_post",
+      "postId": "9",
+      "image": "src/assets/Food1.jpeg",
+      "caption": "Perfect morning breakfast 🥐☕ #FoodGoals",
+      "likes": 580,
+      "postedBy": "foodie_ron"
+    },
+    {
+      "id": "e12",
+      "type": "trending_post",
+      "postId": "10",
+      "image": "src/assets/Food2.jpeg",
+      "caption": "Street food magic 😋 #TasteOfIndia",
+      "likes": 640,
+      "postedBy": "chef_amy"
+    },
+    {
+      "id": "e13",
+      "type": "trending_post",
+      "postId": "11",
+      "image": "src/assets/Technology1.jpeg",
+      "caption": "RGB setup finally complete 💻✨ #GamerLife",
+      "likes": 900,
+      "postedBy": "tech_sam"
+    },
+    {
+      "id": "e14",
+      "type": "trending_post",
+      "postId": "12",
+      "image": "src/assets/Technology2.jpeg",
+      "caption": "AI is changing everything 🤖 #FutureTech",
+      "likes": 850,
+      "postedBy": "dev_guy"
+    },
+    {
+      "id": "e15",
+      "type": "trending_post",
+      "postId": "13",
+      "image": "src/assets/Fit1.jpeg",
+      "caption": "Discipline > Motivation 💪 #MorningWorkout",
+      "likes": 690,
+      "postedBy": "fit_arya"
+    },
+    {
+      "id": "e16",
+      "type": "trending_post",
+      "postId": "14",
+      "image": "src/assets/Fit2.jpeg",
+      "caption": "Push harder than yesterday 🏋️",
+      "likes": 720,
+      "postedBy": "gym_darshan"
+    },
+    {
+      "id": "e17",
+      "type": "trending_post",
+      "postId": "15",
+      "image": "src/assets/Art1.jpeg",
+      "caption": "Colors speak louder than words 🎨 #DigitalArt",
+      "likes": 810,
+      "postedBy": "art_with_riya"
+    },
+    {
+      "id": "e18",
+      "type": "trending_post",
+      "postId": "16",
+      "image": "src/assets/Art2.jpeg",
+      "caption": "Fashion is art in motion 👗✨",
+      "likes": 760,
+      "postedBy": "style_diaries"
+    },
+    {
+      "id": "e19",
+      "type": "trending_post",
+      "postId": "17",
+      "image": "src/assets/Art3.jpeg",
+      "caption": "Fashion is art in motion 👗✨",
+      "likes": 760,
+      "postedBy": "style_diaries"
+    },
+    {
+      "id": "e20",
+      "type": "trending_post",
+      "postId": "18",
+      "image": "src/assets/Fit3.jpeg",
+      "caption": "Push harder than yesterday 🏋️",
+      "likes": 720,
+      "postedBy": "gym_darshan"
+    }
+  ],
+  "create": [],
+  "comments": [
+    {
+      "id": "1",
+      "postId": "101",
+      "username": "john",
+      "profile_pic": "src/assets/Profile1.png",
+      "text": "Awesome post! 😍",
+      "time": "10:45 AM"
+    },
+    {
+      "id": "2",
+      "postId": "102",
+      "username": "emily",
+      "profile_pic": "src/assets/Profile2.png",
+      "text": "Love the vibes! 💫",
+      "time": "11:00 AM"
+    },
+    {
+      "id": "3",
+      "postId": "101",
+      "username": "mike",
+      "profile_pic": "src/assets/Profile3.png",
+      "text": "Where is this place?",
+      "time": "12:15 PM"
+    },
+    {
+      "id": "4",
+      "postId": "102",
+      "username": "sara",
+      "profile_pic": "src/assets/Profile4.png",
+      "text": "Perfect shot 📸",
+      "time": "02:30 PM"
+    },
+    {
+      "id": "5",
+      "postId": "101",
+      "username": "alex",
+      "profile_pic": "src/assets/Profile5.png",
+      "text": "So aesthetic!",
+      "time": "03:05 PM"
+    },
+    {
+      "id": "6",
+      "postId": "102",
+      "username": "you",
+      "profile_pic": "src/assets/Profile4.png",
+      "text": "super",
+      "time": "03:07 AM"
+    },
+    {
+      "id": "7d54de75-80af-49de-b3ba-11d7e87087b0",
+      "postId": "102",
+      "username": "you",
+      "profile_pic": "src\\assets\\Sharu.Photo1.jpeg",
+      "text": "Most Fantastic View I have Seen In My Life🔥",
+      "time": "06:43 AM"
+    },
+    {
+      "id": "268b0def-fc98-4be4-a75d-f36cc346b72a",
+      "postId": "101",
+      "username": "you",
+      "profile_pic": "src\\assets\\Sharu.Photo1.jpeg",
+      "text": "Beautifull",
+      "time": "11:02 PM"
+    },
+    {
+      "id": "3fa54f14-880c-435b-aeb7-6469dd68f0e4",
+      "postId": "5",
+      "user": "Sharu-20",
+      "profile_pic": "src/assets/Sharu.Photo1.jpeg",
+      "comment": "Beautifull😍",
+      "timestamp": "24 October 2025 at 12:03 am"
+    },
+    {
+      "id": "ffc2decc-1438-4b5b-9ad4-c321d643677b",
+      "postId": "5",
+      "user": "Sharu-20",
+      "profile_pic": "src/assets/Sharu.Photo1.jpeg",
+      "comment": "hii",
+      "timestamp": "24 October 2025 at 12:03 am"
+    },
+    {
+      "id": "5a5eb70e-9d6e-479f-8384-93d05af1e8e1",
+      "postId": "1",
+      "user": "Sharu-20",
+      "profile_pic": "src/assets/Sharu.Photo1.jpeg",
+      "comment": "nice",
+      "timestamp": "24 October 2025 at 12:03 am"
+    }
+  ],
+  "storyReactions": [
+    {
+      "id": "ba4d",
+      "storyId": "1",
+      "userId": 101,
+      "reaction": "❤️",
+      "timestamp": "21 October 2025 at 10:45 pm"
+    },
+    {
+      "id": "c790",
+      "storyId": "1",
+      "userId": 101,
+      "reaction": "💯",
+      "timestamp": "21 October 2025 at 10:45 pm"
+    },
+    {
+      "id": "e752",
+      "storyId": "1",
+      "userId": 101,
+      "reaction": "💯",
+      "timestamp": "21 October 2025 at 10:46 pm"
+    },
+    {
+      "id": "3e44",
+      "storyId": "1",
+      "userId": 101,
+      "reaction": "💯",
+      "timestamp": "21 October 2025 at 10:52 pm"
+    },
+    {
+      "id": "ec9c",
+      "storyId": "1",
+      "userId": 101,
+      "reaction": "💯",
+      "timestamp": "21 October 2025 at 10:52 pm"
+    },
+    {
+      "id": "8718",
+      "storyId": "1",
+      "userId": 101,
+      "reaction": "💯",
+      "timestamp": "22 October 2025 at 2:03 am"
+    },
+    {
+      "id": "90fe",
+      "storyId": "2",
+      "userId": 102,
+      "reaction": "👏",
+      "timestamp": "22 October 2025 at 11:20 pm"
+    }
+  ],
+  "storyReplies": [
+    {
+      "id": "5310",
+      "storyId": "1",
+      "userId": 101,
+      "message": "Awesome",
+      "timestamp": "21 October 2025 at 10:25 pm"
+    },
+    {
+      "id": "8f48",
+      "storyId": "1",
+      "userId": 101,
+      "message": "hii",
+      "timestamp": "22 October 2025 at 2:07 am"
+    }
+  ],
+  "storyLikes": [
+    {
+      "id": "7793",
+      "storyId": "1",
+      "userId": 101,
+      "liked": true,
+      "timestamp": "10:13 PM"
+    },
+    {
+      "id": "bb76",
+      "storyId": "1",
+      "userId": 101,
+      "liked": true,
+      "timestamp": "21 October 2025 at 10:46 pm"
+    },
+    {
+      "id": "0d04",
+      "storyId": "1",
+      "userId": 101,
+      "liked": false,
+      "timestamp": "21 October 2025 at 10:46 pm"
+    },
+    {
+      "id": "4b00",
+      "storyId": "1",
+      "userId": 101,
+      "liked": true,
+      "timestamp": "22 October 2025 at 2:07 am"
+    }
+  ]
+}
